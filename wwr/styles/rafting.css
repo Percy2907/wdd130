@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Bodomi+Moda+SC:wght@400;600&family=Oswald:wght@700&display=swap');
 :root{
   --primary-color:#44AF69;
   --accent1-color:#F8333C;
@@ -13,7 +12,7 @@
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Bodomi Moda SC';
   color: var(--text-color);
   background-color: var(--background-color);
   margin: 0;
