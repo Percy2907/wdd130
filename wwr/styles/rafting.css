@@ -90,12 +90,50 @@ section h2 {
   text-align: center;
 }
 
-section img {
-  width: 200px;
-  margin: 2.5rem;
-  border-radius: 8px;
-;
+.info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2.5rem;
+  max-width: 900px;
+  margin: 0 auto;
 }
+
+
+.history p {
+  flex: 1;
+  padding: 10px;
+}
+
+
+.history_img {
+  width: 10px;
+  height: 150px;
+  border-radius: 8px;
+}
+
+.adventure_img {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  gap: 1rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.adventure_img figure {
+  flex: 0 1 200px; 
+  text-align: center;
+}
+
+
+.adventure_img img {
+  width: 200px; 
+  height: 150px; 
+  object-fit: cover; 
+  border-radius: 8px;
+  border: 2px solid var(--accent-color);
+}
+
 
 footer {
   background-color: var(--footer-bg-color);
