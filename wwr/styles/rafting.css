@@ -134,17 +134,34 @@ section h2 {
   border: 2px solid var(--accent-color);
 }
 
+.footer {
+  background-color: #FCAB10;
+  padding: 0rem;
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  color: #FFFFFF;
+  border-top: var(--border);
+}
 
-footer {
+
+.footer p {
   background-color: var(--footer-bg-color);
   color: var(--footer-text-color);
   text-align: center;
   padding: 1rem;
 }
 
-footer a img {
+.social-media a img{
+  display: flex;
+  gap: 1rem; 
+}
+.social_media a img {
   width: 30px;
-  margin: 0 0.5rem
+  margin: 0 0.5rem;
+  height: 30px;
+  border-radius: 50%;
+  
 }
 
 footer a {
