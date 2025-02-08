@@ -60,14 +60,14 @@ header nav {
 
 header nav a {
   color: var(--text-color);
-  font-size: 1.2 rem;
+  font-size: 1.2rem;
   display: block;
   background-color: var(--blue);
   color:#fff;
   padding: var(--padding);
   width: 150px;
   text-align: center;
-  font-size: 700;
+  font-weight: 700;
   font-family:'Acme', sans-serif;
 }
 .hero {
@@ -113,7 +113,7 @@ article img {
 }
 
 article p {
-  font-size: 1.2 rem;
+  font-size: 1.2rem;
 }
 .gridlayout {
   display: grid;
