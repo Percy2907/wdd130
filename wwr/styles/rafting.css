@@ -17,6 +17,14 @@
   color: #fffbfb;
 }
 
+h3 {
+  --margin: 0.8rem;
+  --padding: 0.8rem;
+  --box-sizing: border-box;
+  color: #717171;
+}
+
+
 body {
   font-family: 'Bodoni Moda SC', 'Open Sans';
 
@@ -64,7 +72,7 @@ header nav a {
   font-size: 1.2rem;
   display: block;
   background-color: var(--blue);
-  color:#fff;
+  color:#292929;
   padding: var(--padding);
   width: 150px;
   text-align: center;
@@ -83,7 +91,7 @@ header nav a {
   text-align: center;
   color: #191919;
   font-size: 3rem;
-  background-color: var(--red);
+  background-color: var(--yellow);
   opacity: .8;
 }
 
@@ -188,16 +196,16 @@ footer {
 }
 
 .contact-title {
-  background-color: var(--red);
+  background-color: var(--yellow);
   text-align: center;
   padding: 3rem;
   border-bottom: var(--red);
 }
 
 .contact-title h1 {
-  color: #fff;
+  color: #4b4b4b;
   font-size: 60px;
-  background-color: var(--red);
+  background-color: var(--yellow);
   display: inline;
  }
 
