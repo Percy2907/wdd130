@@ -241,7 +241,7 @@ footer {
 }
 
 .contact-form {
-  background: var(--green);
+  background: var(--blue);
   padding: 1.5rem;
   border-radius: 10px;
   box-shadow: var(--shadow);
